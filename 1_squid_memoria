@@ -1,0 +1,21 @@
+Memoria:
+O squid utiliza RAM e DISCO para armazenamento de objetos em cache, e ainda utiliza a RAM para indexar os objetos em disco. 
+
+Quanto maior o cache utilizado em disco, maior a memória requerida em RAM para a indexação. 
+
+da página (https://wiki.squid-cache.org/SquidFaq/SquidMemory) temos:
+
+10 MB de memória RAM para cada 1 GB em disco no Squid de 32 bits 
+14 MB de memória RAM para cada 1 GB em disco no Squid de 64 bits
+
+Há também memória usada indiretamente: o sistema operacional tem buffers para conexões TCP e E/S do sistema de arquivos.
+
+Supondo 100GB de espaço disponivel em disco para cache, seriam necessários 100 x 14 = 1.44 GB de RAM somente para a indexação em RAM. 
+Supondo ainda um armazenamento em RAM de 1GB, teríamos 1 GB + 1.44 GB = 2.88GB de RAM 
+
+Considerando ainda que estes são valores mínimos, neste caso, supõe-se que serian necessários aproximadamente 4GB de RAM apenas para o proxy, sendo necessário outro montante de RAM para os demais processos da máquina. 
+
+
+
+
+
