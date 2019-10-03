@@ -1,0 +1,6 @@
+0 - setar nome do computador como DC1 
+1 - instalar role ad domain service
+2 - setar ip fixo com dns apontando para si proprio (NAO setar para 127.0.0.1), no dns secundario colocar o dns externo
+3 - reiniciar o servidor 
+4 - dcpromo.exe
+5 - nova floresta, PMC.LOCAL como dominio, arvore tipo windows 2008 R2
