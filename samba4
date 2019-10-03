@@ -6,3 +6,10 @@ No windows, atualizado.
 3 - reiniciar o servidor 
 4 - dcpromo.exe
 5 - nova floresta, PMC.LOCAL como dominio, arvore tipo windows 2008 R2
+
+
+
+No linux, atualizado
+0 - setar nome para debian-ad 
+1 - instalar samba4, kerberos
+2 - setar ip fixo com dns apontando para DC1 
