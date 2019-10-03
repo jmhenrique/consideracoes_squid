@@ -1,3 +1,5 @@
+No windows, atualizado. 
+
 0 - setar nome do computador como DC1 
 1 - instalar role ad domain service
 2 - setar ip fixo com dns apontando para si proprio (NAO setar para 127.0.0.1), no dns secundario colocar o dns externo
